@@ -30,6 +30,5 @@ public class Polymorphism {
         s1.name = "utsav";
         s1.age = 22;
         s1.details(s1.name, s1.age);
-    
     }
 }
