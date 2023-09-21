@@ -3,6 +3,13 @@ package OOPs;
 /**
  * Inheritance
  */
+//there are 4 types 
+//single inheritance
+//Hierarchical inheritance
+//multilevel inheritance
+//hybrid inheritance
+
+//this is single inheritance
 class Shape {
     public void area() {
         System.out.println("Displays Area of Shape");
