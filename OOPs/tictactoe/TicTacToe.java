@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
+import javax.swing.text.Position;
 
 public class TicTacToe implements ActionListener{
 
@@ -26,6 +27,7 @@ public class TicTacToe implements ActionListener{
         textField.setBackground(new Color(25, 25, 25));
         textField.setForeground(new Color(25, 255, 0));
         textField.setFont(new Font("Ink Free", Font.BOLD, 75));
+        textField.setHorizontalAlignment(JLabel.CENTER);
         textField.setText("Tic-Tac-Toe");
         textField.setOpaque(true);
 
@@ -38,6 +40,7 @@ public class TicTacToe implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        
     }
 
     public void firstTurn(){}
